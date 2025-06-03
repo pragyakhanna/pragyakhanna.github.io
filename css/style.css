@@ -65,10 +65,10 @@ p {
   width: 100vw;
 }
 
-#grid__tl__button,
-#grid__tr__button,
-#grid__bl__button,
-#grid__br__button {
+#grid__tl__btn,
+#grid__tr__btn,
+#grid__bl__btn,
+#grid__br__btn {
   height: 18.75rem;
   width: 18.75rem;
   background: var(--background);
@@ -95,30 +95,30 @@ p {
   color: var(--text-alt);
 }
 
-#grid__tl__button,
-#grid__tr__button {
+#grid__tl__btn,
+#grid__tr__btn {
   padding-bottom: 0.5rem;
   align-items: flex-end;
 }
 
-#grid__bl__button,
-#grid__br__button {
+#grid__bl__btn,
+#grid__br__btn {
   padding-top: 0.5rem;
 }
 
-#grid__bl__button:active,
-#grid__br__button:active {
+#grid__bl__btn:active,
+#grid__br__btn:active {
   transform: rotate(-45deg) scale(1.05);
 }
 
-#grid__tl__button:active,
-#grid__br__button:active {
+#grid__tl__btn:active,
+#grid__br__btn:active {
   transform: rotate(45deg) scale(1.05);
 }
 
 /* Top Left Corner */
 
-#grid__tl__button {
+#grid__tl__btn {
   top: -11.5rem;
   left: -11.5rem;
   transform: rotate(-45deg);
@@ -128,7 +128,7 @@ p {
   width: 30vw;
   top: 10vh;
   left: 0;
-  /* transform: translateX(-100vw) translateY(-100vh); */
+  transform: translateX(-100vw) translateY(-100vh);
 }
 
 article {

@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pragya Khanna Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico" />
-    <script type="module" src="/js/animation.js" defer></script>
-    <script type="module" src="/js/colour-mode.js" defer></script>
-    <script type="module" src="/js/project-slideshow.js" defer></script>
-    <link rel="stylesheet" href="/css/animation.css" />
-    <link rel="stylesheet" href="/css/colour-mode.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico" />
+    <script type="module" src="./js/animation.js" defer></script>
+    <script type="module" src="./js/colour-mode.js" defer></script>
+    <script type="module" src="./js/project-slideshow.js" defer></script>
+    <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="stylesheet" href="./css/colour-mode.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div id="hero">
@@ -50,7 +50,7 @@
                   alt="Education icon"
                   class="icon"
                 />
-                <h2>Experience</h2>
+                <h2>Education</h2>
                 <p>B.Eng Computer Engineering Co-op</p>
               </article>
             </div>
@@ -62,7 +62,9 @@
         <div id="grid__tr__content">
           <div class="cards experience">
             <article class="experience__skill">
-              <h2>Frontend Development</h2>
+              <h2>Full Stack Developer Co-op</h2>
+              <h3>Waterdown, ON</h3>
+              <h3>Sept 2023- Sept 2024</h3>
               <div>
                 <img
                   src="./assets/icons/checkmark.png"
@@ -70,8 +72,8 @@
                   class="icon"
                 />
                 <div>
-                  <h2>HTML</h2>
-                  <p>Experienced</p>
+                  <h2>Skills:</h2>
+                  <!-- <p>C#, .NET Core, JavaScript, HTML/CSS, Azure SQL, Jenkins, Docker, REST APIs</p> -->
                 </div>
               </div>
               <div>
@@ -165,7 +167,7 @@
             <div class="project p-1">
               <img
                 class="project__img project-1"
-                src="assets/portfolio-projects/project-1-dark.png"
+                src="./assets/portfolio-projects/project-1-dark.png"
                 alt="Project 1"
               />
               <h2 class="project__title">Project One</h2>
@@ -179,7 +181,7 @@
             <div class="project p-2">
               <img
                 class="project__img project-2"
-                src="assets/portfolio-projects/project-2-dark.png"
+                src="./assets/portfolio-projects/project-2-dark.png"
                 alt="Project 2"
               />
               <h2 class="project__title">Project Two</h2>
@@ -193,7 +195,7 @@
             <div class="project p-3">
               <img
                 class="project__img project-3"
-                src="assets/portfolio-projects/project-3-dark.png"
+                src="./assets/portfolio-projects/project-3-dark.png"
                 alt="Project 3"
               />
               <h2 class="project__title">Project Three</h2>
@@ -204,10 +206,14 @@
                 GitHub
               </button>
             </div>
+            <div class = 'arrow-button'>
             <button class="arrow" onclick="navigateProject(-1)">
               &#10094;
             </button>
             <button class="arrow" onclick="navigateProject(1)">&#10095;</button>
+          </div>
+          </div>
+            </div>
           </div>
         </div>
       </div>

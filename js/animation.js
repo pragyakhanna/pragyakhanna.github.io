@@ -48,7 +48,7 @@ window.addEventListener("resize", handleWindowResize);
 function handleWindowResize() {
   switch (activeCorner) {
     case "top-left":
-      if (window.innerWidth <= 1100) {
+      if (window.innerWidth <= 1200) {
         tlActive = "translateX(0) translateY(0)";
         tlContent.style.transform = "translateX(0vw) translateY(0)";
         tlContent.style.width = "100vw";
@@ -74,7 +74,7 @@ function handleWindowResize() {
       break;
 
     case "top-right":
-      if (window.innerWidth <= 1100) {
+      if (window.innerWidth <= 1200) {
         trActive = "translateX(0) translateY(0)";
         trContent.style.transform = "translateX(0vw) translateY(0)";
         trContent.style.width = "100vw";
@@ -121,7 +121,7 @@ function handleWindowResize() {
         projectTwo.style.margin = "auto auto 0.5rem";
         projectThree.style.width = "70%";
         projectThree.style.margin = "auto auto 0.5rem";
-      } else if (window.innerWidth <= 1100) {
+      } else if (window.innerWidth <= 1200) {
         blActive = "translateX(0) translateY(0)";
         blContent.style.transform = "translateX(0vw) translateY(0)";
         blContent.style.width = "100vw";
@@ -156,7 +156,7 @@ function handleWindowResize() {
       break;
 
     case "bottom-right":
-      if (window.innerWidth <= 1100) {
+      if (window.innerWidth <= 1200) {
         brActive = "translateX(0) translateY(0)";
         brContent.style.transform = "translateX(0vw) translateY(0)";
         brContent.style.width = "100vw";

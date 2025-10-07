@@ -1,225 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pragya Khanna Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico" />
-    <script type="module" src="./js/animation.js" defer></script>
-    <script type="module" src="./js/colour-mode.js" defer></script>
-    <script type="module" src="./js/project-slideshow.js" defer></script>
-    <link rel="stylesheet" href="./css/animation.css" />
-    <link rel="stylesheet" href="./css/colour-mode.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <title>Pragya Khanna - Full Stack Developer</title>
+    <meta name="description" content="Computer Engineering graduate with 3+ years of experience building responsive, cross-platform web applications. Specializing in React, Node.js, and full-stack development." />
+    <meta name="author" content="Pragya Khanna" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Pragya Khanna - Full Stack Developer" />
+    <meta property="og:description" content="Computer Engineering graduate with 3+ years of experience building responsive, cross-platform web applications." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <script type="module" crossorigin src="/assets/index-DQokbYur.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DY2Qc2Wj.css">
   </head>
+
   <body>
-    <div id="hero">
-      <h5>Hello I'm</h5>
-      <h1>Pragya Khanna</h1>
-      <!-- Replace static text with dynamic typing -->
-      <p>I’m <span id="typed-text"></span></p>
-
-      <div id="hero__animation">
-        <div id="hero__animation__img"></div>
-      </div>
-    </div>
-    <nav id="grid">
-      <div id="grid__tl">
-        <div id="grid__tl__btn">About</div>
-        <div id="grid__tl__content">
-          <div class="cards">
-            <div class="cards__content">
-              <article>
-                <img
-                  src="./assets/icons/experience.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <h2>Experience</h2>
-                <p>
-                  1 year + <br />
-                  Full Stack Developer Co-op<br />
-                  Experience
-                </p>
-              </article>
-            </div>
-            <div class="cards__content">
-              <article>
-                <img
-                  src="./assets/icons/education.png"
-                  alt="Education icon"
-                  class="icon"
-                />
-                <h2>Education</h2>
-                <p>B.Eng Computer Engineering Co-op</p>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-<div id="grid__tr">
-  <div id="grid__tr__btn">Experience</div>
-  <div id="grid__tr__content">
-    <div class="cards experience">
-
-      <!--L3Harris Experience -->
-      <article class="experience-card">
-        <div class="experience-header">
-          <img src="./assets/company-logos/L3Harris.png" alt="L3Harris Logo" class="company-logo" />
-          <div>
-            <h2>Full Stack Developer Co-op</h2>
-            <p class="location">Waterdown, Ontario</p>
-            <p class="date">Sept 2023 - Sept 2024</p>
-          </div>
-        </div>
-        <p class="team"><strong>Factory Automation-</strong>
-        <a href="https://www.l3harris.com/en-ca/canada?regional_redirect=en-ca" target="_blank">
-            Systems & Optics Operations Engineering
-          </a>
-          </p>
-        <p class="skills"><strong>Skills:</strong> C#, .NET Core, SQL, Docker, Jenkins, Azure DevOps, HTML/CSS, JavaScript</p>
-      </article>
-
-      <!--McMaster Teaching Assistant -->
-      <article class="experience-card">
-        <div class="experience-header">
-          <img src="./assets/company-logos/McMaster-University.jpg" alt="McMaster Logo" class="company-logo" />
-          <div>
-            <h2>Undergraduate Teaching Assistant – ENGINEER 1P13, 2PX3, 3PX3</h2>
-            <p class="location">Hamilton, Ontario</p>
-            <p class="date">Sept 2023 - Apr 2025</p>
-          </div>
-        </div>
-        <p class="team"><strong>Lab Teaching Assistant for Engineer 1P13:</strong>
-          <a href="https://eng.mcmaster.ca/programs/engineering-1p13/" target="_blank">
-            Integrated Cornerstone Design Projects in Engineering
-          </a>
-        </p>
-        <p class="skills"><strong>Skills:</strong> Python, Quanser, Autodesk Inventor, D2L Brightspace, Communication, Grading, MS Office, Teaching and Mentoring</p>
-      </article>
-
-    </div>
-  </div>
-</div>
-      <div id="grid__bl">
-        <div id="grid__bl__btn">Projects</div>
-        <div id="grid__bl__content">
-          <div id="grid__bl__content__projects">
-            <div class="project p-1">
-              <img
-                class="project__img project-1"
-                src="./assets/portfolio-projects/Fit-Plant-Logo.png"
-                alt="Project 1"
-              />
-              <h2 class="project__title">Fit-Plant – Smart Plant Monitoring System </h2>
-              <button
-                class="btn"
-                onclick="window.location.href='https://github.com/CaydenFerguson/fit-plant'"
-              >
-                GitHub
-              </button>
-            </div>
-            <div class="project p-2">
-              <img
-                class="project__img project-2"
-                src="./assets/portfolio-projects/RC-Vehicle.png"
-                alt="Project 2"
-              />
-              <h2 class="project__title">Autonomous RC Vehicle</h2>
-              <button
-                class="btn"
-                onclick="window.location.href='https://github.com/pragyakhanna/Autonomous-RC-Vehicle'"
-              >
-                GitHub
-              </button>
-            </div>
-            <div class="project p-3">
-              <img
-                class="project__img project-3"
-                src="./assets/portfolio-projects/FPGA.png"
-                alt="Project 3"
-              />
-              <h2 class="project__title">FPGA Image Decompression System</h2>
-              <button
-                class="btn"
-                onclick="window.location.href='https://github.com/pragyakhanna/Image_Decompressor'"
-              >
-                GitHub
-              </button>
-            </div>
-            <div class="project p-4">
-              <img
-                class="project__img project-4"
-                src="./assets/portfolio-projects/Mapping-Robot.png"
-                alt="Project 4"
-              />
-              <h2 class="project__title">3D Mapping Robot</h2>
-              <button
-                class="btn"
-                onclick="window.location.href='https://github.com/pragyakhanna/Spatial_Mapping'"
-              >
-                GitHub
-              </button>
-            </div>
-            <div class = 'arrow-button'>
-            <button class="arrow" onclick="navigateProject(-1)">
-              &#10094;
-            </button>
-            <button class="arrow" onclick="navigateProject(1)">&#10095;</button>
-          </div>
-          </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="grid__br">
-        <div id="grid__br__btn">Contact</div>
-        <div id="grid__br__content">
-          <h5 class="contact-text">Get in Touch</h5>
-          <h2 class="contact-text">Contact Me</h2>
-          <div>
-            <button
-              class="btn btn-contact"
-              onclick="window.location.href='mailto:pragyakhanna0810@gmail.com'"
-            >
-              Email
-            </button>
-            <button
-              class="btn btn-contact"
-              onclick="window.location.href='https://www.linkedin.com'"
-            >
-              LinkedIn
-            </button>
-              <button class="btn btn-contact" 
-              onclick="window.open('./assets/resume/Pragya_Khanna_Resume.pdf', '_blank')"
-              >
-              Resume
-            </button>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <div id="colour-mode">
-      <div id="toggle-button" class="icon"></div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-    <script>
-      var typed = new Typed("#typed-text", {
-        strings: [
-          "a Computer Engineer.",
-          "a Full Stack Developer.",
-          "a Software Enthusiast.",
-          "a Problem Solver.",
-          "an Analytical Thinker.",
-        ],
-        typeSpeed: 60,
-        backSpeed: 40,
-        backDelay: 1000,
-        loop: true,
-      });
-    </script>
+    <div id="root"></div>
   </body>
 </html>
